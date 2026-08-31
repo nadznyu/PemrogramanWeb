@@ -8,12 +8,12 @@
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     color: #2b2b2b;
-    background-color: #f5f6f8;
+    background-color: yellowgreen;
     line-height: 1.5;
 }
 
 a {
-    color: #1d5b8a;
+    color: pink;
     text-decoration: none;
 }
 
@@ -23,7 +23,7 @@ a:hover {
 
 /* ===== Header & Navbar (Flexbox) ===== */
 header {
-    background-color: #1d5b8a;
+    background-color: rgb(120, 85, 38);
     color: #fff;
     padding: 1rem 1.5rem;
     display: flex;
@@ -43,7 +43,7 @@ header nav ul {
 }
 
 header nav a {
-    color: #fff;
+    color: white;
     font-weight: 500;
 }
 
@@ -55,7 +55,8 @@ main {
 }
 
 section {
-    background-color: #fff;
+    background-color: yellow;
+    color: #000; 
     border-radius: 8px;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
@@ -64,18 +65,18 @@ section {
 
 section h2 {
     margin-bottom: 1rem;
-    color: #1d5b8a;
+    color: #000; 
 }
 
 /* ===== Kartu Statistik (CSS Grid) ===== */
 main section:nth-of-type(2) .stats-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
 
 main section:nth-of-type(2) article {
-    background-color: #eef4fa;
+    background-color: chocolate;
     border-radius: 8px;
     padding: 1.25rem;
     text-align: center;
@@ -83,14 +84,14 @@ main section:nth-of-type(2) article {
 
 main section:nth-of-type(2) article h3 {
     font-size: 0.95rem;
-    color: #55677a;
+    color: #2b2b2b;
     margin-bottom: 0.5rem;
 }
 
 main section:nth-of-type(2) article p {
     font-size: 1.8rem;
     font-weight: 700;
-    color: #1d5b8a;
+    color: #2b2b2b;
 }
 
 /* ===== Tabel ===== */
@@ -102,20 +103,20 @@ table {
 th, td {
     text-align: left;
     padding: 0.65rem 0.75rem;
-    border-bottom: 1px solid #e2e6ea;
+    border-bottom: 1px solid yellow;
 }
 
 thead {
-    background-color: #1d5b8a;
-    color: #fff;
+    background-color: yellow;
+    color: #000;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #f7f9fb;
+    background-color: white;
 }
 
 tbody tr:hover {
-    background-color: #eef4fa;
+    background-color: yellow;
 }
 
 td button {
@@ -146,7 +147,7 @@ form label {
     display: block;
     margin-bottom: 0.35rem;
     font-weight: 600;
-    color: #444;
+    color: #000;
 }
 
 form input,
@@ -160,8 +161,8 @@ form select {
 }
 
 form button[type="submit"] {
-    background-color: #1d5b8a;
-    color: #fff;
+    background-color: yellow;
+    color: #000;
     border: none;
     padding: 0.6rem 1.5rem;
     border-radius: 4px;
@@ -170,7 +171,7 @@ form button[type="submit"] {
 }
 
 form button[type="submit"]:hover {
-    background-color: #164869;
+    background-color: yellow;
 }
 
 /* ===== Footer ===== */
